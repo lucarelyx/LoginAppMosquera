@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:maxHeight="100dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Editar Registro"/>
+    <EditText
+        android:id="@+id/updatename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Nombre" />
+    <EditText
+        android:id="@+id/updatelastName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Apellido" />
+    <EditText
+        android:id="@+id/updateadress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Dirección" />
+
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:gravity="right"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:layout_width="298dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/b" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:hint="Subir"
+            android:background="#0B3B2E"
+            android:id="@+id/updateimg"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="#0B3B2E"
+        android:text="Editar"
+        android:textColor="#F2F2F2"
+        android:textSize="15dp"
+        android:id="@+id/btnUpdate"/>
+
+
+
+
+</LinearLayout>

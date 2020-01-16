@@ -8,42 +8,52 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="820dp"
-        android:layout_margin="30dp"
-        android:layout_weight="1"
-        android:src="@mipmap/a" />
 
     <EditText
-        android:id="@+id/user"
+        android:id="@+id/createname"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:layout_weight="1"
-        android:inputType="textEmailAddress"
-        android:hint="Usuario"
-        android:imeOptions="actionNext"/>
-
+        android:layout_weight="1.1"
+        android:hint="Nombre" />
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/createlastName"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:layout_weight="1"
-        android:inputType="textPassword"
-        android:hint="Contraseña"
-        android:imeOptions="actionDone"/>
+        android:layout_weight="1.1"
+        android:hint="Apellido" />
+    <EditText
+        android:id="@+id/createadress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1.1"
+        android:hint="Dirección" />
+
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="0.8"
+        android:background="@color/cardview_dark_background"
+        android:scaleType="center"
+        android:id="@+id/createimage"
+        android:src="@mipmap/b" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:layout_weight="1"
+        android:layout_weight="1.1"
         android:background="#0B3B2E"
-        android:text="entrar"
+        android:text="Registrar"
         android:textColor="#F2F2F2"
         android:textSize="15dp"
-        android:id="@+id/btnLogin"/>
+        android:id="@+id/btnCreate"/>
+
+
 
 
 </LinearLayout>
